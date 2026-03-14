@@ -407,7 +407,7 @@ const MetalWelding = () => {
                   className="group"
                   onClick={scrollToForm}
                 >
-                  <Phone className="h-5 w-5 mr-2" />
+                  <Mail className="h-5 w-5 mr-2" />
                   Замовити зварювання
                 </Button>
               </div>

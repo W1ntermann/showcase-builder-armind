@@ -15,7 +15,7 @@ import ContactPopup from "@/components/ContactPopup";
 import SEOHead from "@/components/SEOHead";
 import BackButton from "@/components/BackButton";
 import { seoPages } from "@/utils/seo";
-import spreadPaintImage from "@/assets/powder-coating-new.jpg";
+import spreadPaintImage from "@/assets/for-paint-first.jpg";
 import backgroundImage from "@/assets/bg-for-powder.jpg";
 import { makeWebhookService } from "@/services/makeWebhook";
 
@@ -495,7 +495,7 @@ const PowderCoating = () => {
                   className="group"
                   onClick={scrollToForm}
                 >
-                  <Phone className="h-5 w-5 mr-2" />
+                  <Mail className="h-5 w-5 mr-2" />
                   Замовити фарбування
                 </Button>
                 <Button 

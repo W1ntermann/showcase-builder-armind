@@ -23,12 +23,12 @@ import { makeWebhookService } from "@/services/makeWebhook";
 const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwyBYVfh9EpY49WF3ROqQQs88RoWjvCUhWckOZ6GKn87x8eJLiAU2QmpxKN1gt4nS9YcQ/exec";
 
 // Приклади робіт (замініть на реальні фото)
-import work1 from "@/assets/for-laser-cutting-three.jpg";
-import work2 from "@/assets/for-laser-cutting-two.jpg";
-import work3 from "@/assets/for-laser-cutting.jpg";
-import work4 from "@/assets/for-laser-cutting-three.jpg";
-import work5 from "@/assets/for-laser-cutting-two.jpg";
-import work6 from "@/assets/for-laser-cutting.jpg";
+import work1 from "@/assets/for-cutting-1.jpg";
+import work2 from "@/assets/for-cutting-2.jpg";
+import work3 from "@/assets/for-cutting-3.jpg";
+import work4 from "@/assets/for-cutting-4.jpg";
+import work5 from "@/assets/for-cutting-5.jpg";
+import work6 from "@/assets/for-cutting-6.jpg";
 
 // Типи для форми
 interface FormData {
@@ -387,7 +387,7 @@ const LaserCutting = () => {
                   className="group"
                   onClick={scrollToForm}
                 >
-                  <Phone className="h-5 w-5 mr-2" />
+                  <Mail className="h-5 w-5 mr-2" />
                   Дізнатися вартість
                 </Button>
               </div>

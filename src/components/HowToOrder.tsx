@@ -45,20 +45,20 @@ const HowToOrder = () => {
           </p>
         </div>
 
-        {/* Сітка кроків */}
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-6 max-w-6xl mx-auto">
+        {/* Сітка кроків - Варіант 2 */}
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-4 max-w-6xl mx-auto">
           {steps.map((step, index) => (
             <Card
               key={index}
-              className="p-6 bg-card border-border shadow-card hover:shadow-metal transition-all duration-300 group h-full"
+              className="p-4 bg-card border-border shadow-card hover:shadow-metal transition-all duration-300 group h-full"
             >
-              <div className="text-5xl font-black bg-gradient-laser bg-clip-text text-transparent mb-4 opacity-80 group-hover:opacity-100 transition-opacity">
+              <div className="text-4xl md:text-5xl font-black bg-gradient-laser bg-clip-text text-transparent mb-3 opacity-80 group-hover:opacity-100 transition-opacity">
                 {step.number}
               </div>
-              <h3 className="text-xl font-semibold text-foreground mb-2">
+              <h3 className="text-base md:text-lg font-semibold text-foreground mb-2 break-words leading-tight">
                 {step.title}
               </h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">
+              <p className="text-muted-foreground text-xs md:text-sm leading-relaxed">
                 {step.description}
               </p>
             </Card>

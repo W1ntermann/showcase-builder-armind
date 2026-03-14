@@ -253,7 +253,7 @@ const Header = () => {
           <div className="relative">
             <img src={logoImage} alt="Логотип Армінд" className="h-8 w-8" />
           </div>
-          <span className="text-xl font-bold text-foreground">Армінд</span>
+          <span className="text-xl font-bold text-foreground">ARMIND</span>
         </div>
       </div>
     </header>

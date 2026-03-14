@@ -27,7 +27,7 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import laserRazorImage from "@/assets/for-laser-cutting-three.jpg";
-import spreadPaintImage from "@/assets/powder-coating-new.jpg";
+import spreadPaintImage from "@/assets/for-paint-first.jpg";
 import weldingImage from "@/assets/for-welding-first.jpg";
 import bendingImage from "@/assets/for-bending-first.jpg";
 import metalPartsImage from "@/assets/metal-parts.jpg";

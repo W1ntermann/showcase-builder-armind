@@ -11,11 +11,10 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <img src={logoImage} alt="Логотип Армінд" className="h-8 w-8" />
-              <span className="text-xl font-bold text-foreground">Армінд</span>
+              <span className="text-xl font-bold text-foreground">ARMIND</span>
             </div>
             <p className="text-muted-foreground mb-4 leading-relaxed">
-              Армада Індастрі - професійна обробка металу в Одесі. Лазерні технології 
-              для промисловості з гарантією якості та екологічно чистими матеріалами.
+              Armada Industry - це Повний цикл обробки металу. Виробництво, інженерний підхід, відповідальність за результат. Від проєктування до порошкового фарбування - все в одному виробництві
             </p>
             <div className="flex flex-col gap-2">
               <div className="flex items-center gap-2 text-muted-foreground">
@@ -69,6 +68,30 @@ const Footer = () => {
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   Порошкове фарбування
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/metal-welding" 
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Зварювання металевих деталей
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/precise-bending" 
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Гнуття металу
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  to="/complex-manufacturing" 
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Металеві деталі на замовлення
                 </Link>
               </li>
             </ul>
