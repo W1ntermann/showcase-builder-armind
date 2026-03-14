@@ -1,0 +1,10 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- High contrast background -->
+  <rect width="32" height="32" fill="#000000" rx="4"/>
+  
+  <!-- Bright orange lightning bolt -->
+  <path d="M8 6 L20 6 L16 14 L24 14 L12 26 L16 18 L8 18 Z" 
+        fill="#FF8C42" 
+        stroke="#FFFFFF" 
+        stroke-width="0.5"/>
+</svg>

@@ -1,0 +1,22 @@
+# Netlify redirects file
+
+# Redirect www to non-www
+https://www.armind.com.ua/* https://armind.com.ua/:splat 301!
+http://www.armind.com.ua/* https://armind.com.ua/:splat 301!
+
+# Redirect HTTP to HTTPS
+http://armind.com.ua/* https://armind.com.ua/:splat 301!
+
+# Block search template URLs from being indexed
+/?q=* /404 404
+/*?q=* /:splat 301
+
+# Block tracking parameters
+/*?utm_source=* /:splat 301
+/*?utm_medium=* /:splat 301
+/*?utm_campaign=* /:splat 301
+/*?fbclid=* /:splat 301
+/*?gclid=* /:splat 301
+
+# SPA fallback
+/*    /index.html   200

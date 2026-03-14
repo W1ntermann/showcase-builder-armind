@@ -1,0 +1,6 @@
+Favicon refresh request for armind.com.ua
+Date: 2024-10-25
+New favicon: /armind-logo-contrast.svg
+Cache busting version: v=2024
+
+Please update favicon in search results.

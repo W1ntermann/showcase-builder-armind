@@ -1,0 +1,22 @@
+{
+  "redirects": [
+    {
+      "source": "/:path((?!sitemap\\.xml|robots\\.txt|favicon.*|apple-touch-icon.*|site\\.webmanifest).*)?",
+      "destination": "https://www.armind.com.ua/:path",
+      "permanent": true,
+      "has": [
+        {
+          "type": "host",
+          "value": "armind.com.ua"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+

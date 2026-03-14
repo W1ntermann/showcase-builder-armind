@@ -1,0 +1,43 @@
+{
+  "name": "Армада Індастрі - Лазерна обробка металу",
+  "short_name": "Армінд",
+  "description": "Професійна лазерна обробка металу в Одесі: різка, згинання, зварювання та порошкове фарбування",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#FF8C42",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon-armada.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-armada.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-armada.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-armada.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/favicon-armada.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "lang": "uk",
+  "scope": "/",
+  "id": "armind-metal-processing"
+}

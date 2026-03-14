@@ -1,0 +1,49 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#1a1a1a"/>
+  
+  <!-- Gradient background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a2a2a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8C42;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA726;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Logo background circle -->
+  <circle cx="300" cy="315" r="120" fill="#2a2a2a" opacity="0.8"/>
+  
+  <!-- Lightning bolt logo -->
+  <path d="M250 265 L320 265 L290 315 L350 315 L280 365 L310 315 L250 315 Z" fill="url(#logoGradient)"/>
+  
+  <!-- Company name -->
+  <text x="450" y="280" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#ffffff">
+    Армада Індастрі
+  </text>
+  
+  <!-- Tagline -->
+  <text x="450" y="340" font-family="Arial, sans-serif" font-size="36" fill="#FF8C42">
+    Професійна лазерна обробка металу
+  </text>
+  
+  <!-- Location -->
+  <text x="450" y="390" font-family="Arial, sans-serif" font-size="28" fill="#cccccc">
+    м. Одеса • +380 (93) 423-61-39
+  </text>
+  
+  <!-- Services -->
+  <text x="450" y="440" font-family="Arial, sans-serif" font-size="24" fill="#999999">
+    Лазерна різка • Зварювання • Порошкове фарбування
+  </text>
+  
+  <!-- Website -->
+  <text x="450" y="480" font-family="Arial, sans-serif" font-size="24" fill="#FF8C42">
+    armind.com.ua
+  </text>
+</svg>

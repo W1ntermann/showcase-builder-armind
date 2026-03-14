@@ -1,0 +1,46 @@
+# Robots.txt для Армада Індастрі (armind.com.ua)
+# Дозволяємо індексацію всім пошуковим системам
+
+User-agent: *
+Allow: /
+
+# Заборонені директорії та параметри
+Disallow: /admin/
+Disallow: /private/
+Disallow: /contact-form
+Disallow: /not-found
+Disallow: /*.json$
+Disallow: /*?q=*
+Disallow: /*?utm_*
+Disallow: /*?source=*
+Disallow: /*?fbclid=*
+Disallow: /*?gclid=*
+
+# Дозволяємо доступ до важливих файлів
+Allow: /sitemap.xml
+Allow: /robots.txt
+Allow: /favicon.ico
+Allow: /favicon-*.png
+Allow: /apple-touch-icon.png
+Allow: /site.webmanifest
+
+# Спеціальні правила для основних ботів
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# Посилання на sitemap - КОРЕКТНЕ ПОСИЛАННЯ З www.
+Sitemap: https://www.armind.com.ua/sitemap.xml
+
+# Основна сторінка сайту
+Host: www.armind.com.ua
