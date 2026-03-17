@@ -50,21 +50,21 @@ const Hero = () => {
             Працюємо з виробництвом, будівельними компаніями та інженерними проєктами.
           </p>
 
-          <div className="grid grid-cols-2 sm:flex sm:flex-wrap justify-center gap-2 sm:gap-4 mb-8 md:mb-12 px-2">
+          <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 sm:gap-4 mb-8 md:mb-12 px-2">
             <div className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm md:text-base text-muted-foreground">
-              <span className="text-laser text-sm sm:text-base">✔</span>
+              <span className="text-laser text-sm sm:text-base flex-shrink-0">✓</span>
               <span>від 1 деталі</span>
             </div>
             <div className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm md:text-base text-muted-foreground">
-              <span className="text-laser text-sm sm:text-base">✔</span>
+              <span className="text-laser text-sm sm:text-base flex-shrink-0">✓</span>
               <span>партії</span>
             </div>
-            <div className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm md:text-base text-muted-foreground col-span-2 justify-center sm:col-span-1">
-              <span className="text-laser text-sm sm:text-base">✔</span>
-              <span>повний цикл</span>
+            <div className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm md:text-base text-muted-foreground">
+              <span className="text-laser text-sm sm:text-base flex-shrink-0">✓</span>
+              <span>повний цикл виробництва</span>
             </div>
-            <div className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm md:text-base text-muted-foreground col-span-2 justify-center sm:col-span-1">
-              <span className="text-laser text-sm sm:text-base">✔</span>
+            <div className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm md:text-base text-muted-foreground">
+              <span className="text-laser text-sm sm:text-base flex-shrink-0">✓</span>
               <span>власне обладнання</span>
             </div>
           </div>
