@@ -701,11 +701,12 @@ const MetalWelding = () => {
                       Ваше ім'я <span className="text-destructive">*</span>
                     </label>
                     <div className="relative">
-                      <input
-                        type="text"
-                        name="name"
-                        value={formData.name}
-                        onChange={handleInputChange}
+                        <input
+                          type="text"
+                          name="name"
+                          id="name"
+                          value={formData.name}
+                          onChange={handleInputChange}
                         className={`w-full p-3 rounded-lg bg-background border ${
                           errors.name ? 'border-destructive' : 'border-border'
                         } text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary transition-all`}
@@ -731,11 +732,12 @@ const MetalWelding = () => {
                       Телефон <span className="text-destructive">*</span>
                     </label>
                     <div className="relative">
-                      <input
-                        type="tel"
-                        name="phone"
-                        value={formData.phone}
-                        onChange={handleInputChange}
+                        <input
+                          type="tel"
+                          name="phone"
+                          id="phone"
+                          value={formData.phone}
+                          onChange={handleInputChange}
                         className={`w-full p-3 rounded-lg bg-background border ${
                           errors.phone ? 'border-destructive' : 'border-border'
                         } text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary transition-all`}
@@ -779,6 +781,7 @@ const MetalWelding = () => {
                     </label>
                     <select
                       name="weldingType"
+                      id="weldingType"
                       value={formData.weldingType}
                       onChange={handleInputChange}
                       className={`w-full p-3 rounded-lg bg-background border ${
@@ -801,6 +804,7 @@ const MetalWelding = () => {
                     </label>
                     <select
                       name="material"
+                      id="material"
                       value={formData.material}
                       onChange={handleInputChange}
                       className={`w-full p-3 rounded-lg bg-background border ${
@@ -825,6 +829,7 @@ const MetalWelding = () => {
                     </label>
                     <select
                       name="thickness"
+                      id="thickness"
                       value={formData.thickness}
                       onChange={handleInputChange}
                       className={`w-full p-3 rounded-lg bg-background border ${
@@ -848,6 +853,7 @@ const MetalWelding = () => {
                     <input
                       type="number"
                       name="quantity"
+                      id="quantity"
                       value={formData.quantity}
                       onChange={handleInputChange}
                       min="1"
@@ -870,6 +876,7 @@ const MetalWelding = () => {
                   </label>
                   <textarea
                     name="description"
+                    id="description"
                     value={formData.description}
                     onChange={handleInputChange}
                     rows={4}
