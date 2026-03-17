@@ -40,7 +40,7 @@ import g1 from "@/assets/for-welding-1.jpg";
 import g2 from "@/assets/for-welding-2.jpg";
 import g3 from "@/assets/for-welding-3.jpg";
 import g4 from "@/assets/for-welding-4.jpg";
-import g5 from "@/assets/for-welding-5.jpg";
+import g5 from "@/assets/for-welding-first.jpg";
 import g6 from "@/assets/for-welding-6.jpg";
 
 // Типи для форми
@@ -332,12 +332,12 @@ const MetalWelding = () => {
   };
 
   const galleryImages = [
-    { id: 1, img: g1, title: "Зварні конструкції для машинобудування" },
-    { id: 2, img: g2, title: "Металеві каркаси та рами" },
-    { id: 3, img: g3, title: "Складні профільні конструкції" },
-    { id: 4, img: g4, title: "Зварювання нержавійки" },
-    { id: 5, img: g5, title: "Алюмінієві конструкції" },
-    { id: 6, img: g6, title: "Декоративні зварні елементи" },
+    { id: 1, img: g1},
+    { id: 2, img: g2},
+    { id: 3, img: g3,},
+    { id: 4, img: g4},
+    { id: 5, img: g5,},
+    { id: 6, img: g6,}
   ];
 
   const weldingTypes = [
@@ -551,11 +551,11 @@ const MetalWelding = () => {
                 <div className="relative h-64 overflow-hidden">
                   <img 
                     src={work.img} 
-                    alt={work.title}
+                    
                     className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                    <p className="text-white p-4 font-medium">{work.title}</p>
+                  
                   </div>
                 </div>
               </Card>
