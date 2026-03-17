@@ -33,51 +33,58 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/50"></div>
       </div>
 
-      <div className="container mx-auto px-4 relative z-10 pt-20">
+      <div className="container mx-auto px-4 relative z-10 pt-16 md:pt-20">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-foreground mb-4 md:mb-6 leading-tight">
             <span className="bg-gradient-laser bg-clip-text text-transparent">
               Виготовлення металевих деталей 
             </span>
             <br />
-            та виробів під замовлення
+            <span className="text-2xl sm:text-3xl md:text-5xl lg:text-7xl">
+              та виробів під замовлення
+            </span>
           </h1>
 
-          <p className="text-white text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-sm sm:text-base md:text-xl text-muted-foreground mb-6 md:mb-8 max-w-2xl mx-auto leading-relaxed px-2">
             Лазерна різка, згинання, зварювання та порошкове фарбування. 
             Працюємо з виробництвом, будівельними компаніями та інженерними проєктами.
           </p>
 
-          <div className="flex flex-wrap justify-center gap-4 mb-12">
-            <div className="flex items-center gap-2 text-muted-foreground">
-              <span className="text-laser">✔</span>
+          <div className="grid grid-cols-2 sm:flex sm:flex-wrap justify-center gap-2 sm:gap-4 mb-8 md:mb-12 px-2">
+            <div className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm md:text-base text-muted-foreground">
+              <span className="text-laser text-sm sm:text-base">✔</span>
               <span>від 1 деталі</span>
             </div>
-            <div className="flex items-center gap-2 text-muted-foreground">
-              <span className="text-laser">✔</span>
+            <div className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm md:text-base text-muted-foreground">
+              <span className="text-laser text-sm sm:text-base">✔</span>
               <span>партії</span>
             </div>
-            <div className="flex items-center gap-2 text-muted-foreground">
-              <span className="text-laser">✔</span>
-              <span>повний цикл виробництва</span>
+            <div className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm md:text-base text-muted-foreground col-span-2 justify-center sm:col-span-1">
+              <span className="text-laser text-sm sm:text-base">✔</span>
+              <span>повний цикл</span>
             </div>
-            <div className="flex items-center gap-2 text-muted-foreground">
-              <span className="text-laser">✔</span>
+            <div className="flex items-center gap-1 sm:gap-2 text-xs sm:text-sm md:text-base text-muted-foreground col-span-2 justify-center sm:col-span-1">
+              <span className="text-laser text-sm sm:text-base">✔</span>
               <span>власне обладнання</span>
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4 sm:px-0">
             <Button 
               variant="hero" 
-              size="lg" 
+              size="default" 
               onClick={() => navigate('/contact?source=hero')} 
-              className="group"
+              className="group text-sm sm:text-base py-5 sm:py-6 w-full sm:w-auto"
             >
               Замовити прорахунок
-              <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button variant="outline" size="lg" onClick={scrollToServices}>
+            <Button 
+              variant="outline" 
+              size="default" 
+              onClick={scrollToServices}
+              className="text-sm sm:text-base py-5 sm:py-6 w-full sm:w-auto"
+            >
               Наші послуги
             </Button>
           </div>
